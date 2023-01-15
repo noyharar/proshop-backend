@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3d42e82c-ba4c-4093-9c05-8f913de75769" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="2KB0P1RntlP9kAnT88RpHUZJdr1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ProjectServer" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\noyha\IdeaProjects\proshop-backend\data" />
+    </key>
+    <key name="OPEN_URL_DIALOG">
+      <recent name="https://github.com/noyharar/ProjectServer.git" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\noyha\IdeaProjects\proshop-backend\public\javascripts" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3d42e82c-ba4c-4093-9c05-8f913de75769" name="Default Changelist" comment="" />
+      <created>1673432640285</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673432640285</updated>
+      <workItem from="1673432643033" duration="22178000" />
+      <workItem from="1673783573352" duration="52000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/node_modules/sift/src/operations.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/sift/src/core.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/sift/src/utils.js.map" />
+        <option value="$PROJECT_DIR$/node_modules/sift/src/utils.d.ts" />
+        <option value="$PROJECT_DIR$/node_modules/sift/src/index.d.ts" />
+      </list>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="389" y="17" key="#bin\www" timestamp="1673450951408">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="389" y="17" key="#bin\www/0.0.1280.680@0.0.1280.680" timestamp="1673450951408" />
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1673450993970">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1673450993970" />
+    <state x="421" y="78" key="FileChooserDialogImpl" timestamp="1673441427607">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="78" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1673441427607" />
+    <state width="1237" height="285" key="GridCell.Tab.0.bottom" timestamp="1673531222304">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="285" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1673531222304" />
+    <state width="1237" height="285" key="GridCell.Tab.0.center" timestamp="1673531222304">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="285" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1673531222304" />
+    <state width="1237" height="285" key="GridCell.Tab.0.left" timestamp="1673531222304">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="285" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1673531222304" />
+    <state width="1237" height="285" key="GridCell.Tab.0.right" timestamp="1673531222304">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="285" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1673531222304" />
+    <state width="1237" height="162" key="GridCell.Tab.1.bottom" timestamp="1673434830647">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="162" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1673434830647" />
+    <state width="1237" height="162" key="GridCell.Tab.1.center" timestamp="1673434830647">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="162" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1673434830647" />
+    <state width="1237" height="162" key="GridCell.Tab.1.left" timestamp="1673434830647">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="162" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1673434830647" />
+    <state width="1237" height="162" key="GridCell.Tab.1.right" timestamp="1673434830647">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="162" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1673434830647" />
+    <state width="1237" height="162" key="GridCell.Tab.2.bottom" timestamp="1673434830647">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="162" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1673434830647" />
+    <state width="1237" height="162" key="GridCell.Tab.2.center" timestamp="1673434830647">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="162" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1673434830647" />
+    <state width="1237" height="162" key="GridCell.Tab.2.left" timestamp="1673434830647">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="162" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1673434830647" />
+    <state width="1237" height="162" key="GridCell.Tab.2.right" timestamp="1673434830647">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="162" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1673434830647" />
+    <state width="1237" height="162" key="GridCell.Tab.3.bottom" timestamp="1673434830648">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="162" key="GridCell.Tab.3.bottom/0.0.1280.680@0.0.1280.680" timestamp="1673434830648" />
+    <state width="1237" height="162" key="GridCell.Tab.3.center" timestamp="1673434830647">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="162" key="GridCell.Tab.3.center/0.0.1280.680@0.0.1280.680" timestamp="1673434830647" />
+    <state width="1237" height="162" key="GridCell.Tab.3.left" timestamp="1673434830647">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="162" key="GridCell.Tab.3.left/0.0.1280.680@0.0.1280.680" timestamp="1673434830647" />
+    <state width="1237" height="162" key="GridCell.Tab.3.right" timestamp="1673434830648">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="162" key="GridCell.Tab.3.right/0.0.1280.680@0.0.1280.680" timestamp="1673434830648" />
+    <state x="93" y="93" width="1095" height="495" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1673522439638">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="93" y="93" width="1095" height="495" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.680@0.0.1280.680" timestamp="1673522439638" />
+    <state x="351" y="82" width="579" height="516" key="find.popup" timestamp="1673526344210">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="351" y="82" width="579" height="516" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1673526344210" />
+    <state x="91" y="67" key="new project wizard" timestamp="1673470001661">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="91" y="67" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1673470001661" />
+    <state x="297" y="151" key="run.anything.popup" timestamp="1673445905081">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1673445905081" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/products.js</url>
+          <line>9</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/db.js</url>
+          <line>4</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
