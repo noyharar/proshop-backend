@@ -1,43 +1,45 @@
-var createError = require('http-errors');
-var express = require('express');
-var path = require('path');
-var cookieParser = require('cookie-parser');
-var logger = require('morgan');
-// var indexRouter = require('./routes/index');
-var productsRouter = require('./routes/products');
-const cors = require('cors');
-var connectDB = require("./db");
+import createError from "http-errors";
 
-// const corsOptions ={
-//   origin:true,
-//   credentials:true,            //access-control-allow-credentials:true
-//   // optionSuccessStatus:200
-// }
-const dotenv = require('dotenv');
+import express from "express";
+
+import path from "path";
+
+import cookieParser from "cookie-parser";
+
+import logger from "morgan";
+// var indexRouter = require('./routes/index');
+import productsRouter from "./routes/products.js";
+import userRouter from "./routes/user.js";
+
+import cors from "cors";
+import connectDB from "./db.js";
+
+import dotenv from "dotenv";
+
 dotenv.config();
 
 connectDB();
 
 var app = express();
+
+app.use(express.json());
+
 app.use(cors());
 
-// view engine setup
-app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'pug');
+// // view engine setup
+// app.set('views', path.join(__dirname, 'views'));
+// app.set('view engine', 'pug');
 
 app.use(logger('dev'));
-app.use(express.json());
-app.use(express.urlencoded({ extended: false }));
+// app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'public')));
+// app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/products', productsRouter);
+app.use('/users', userRouter);
 
 
-// catch 404 and forward to error handler
-// app.use(function(req, res, next) {
-//   next(createError(404));
-// });
+/*Error Middleware*/
 app.use((req, res, next) => {
   const error = new Error(`No Found ${req.originalUrl}`)
   // res.status(404);
@@ -52,6 +54,11 @@ app.use((err, req, res, next) => {
     stack: process.env.NODE_ENV === 'production' ? null : err.stack,
   })
 });
+
+// catch 404 and forward to error handler
+// app.use(function(req, res, next) {
+//   next(createError(404));
+// });
 // // error handler
 // app.use(function(err, req, res, next) {
 //   // set locals, only providing error in development
@@ -67,4 +74,4 @@ app.use((err, req, res, next) => {
 //   res.render('error');
 // });
 
-module.exports = app;
+export default app;

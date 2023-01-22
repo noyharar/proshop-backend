@@ -1,13 +1,13 @@
-var express = require('express');
+import express from "express";
 var router = express.Router();
-var productController= require('../controllers/productController');
+import {getProducts,getProductById} from "../controllers/productController.js";
 
 /* GET products listing. */
-router.get('/', productController.getProducts);
+router.get('/', getProducts);
 
 /* GET product by id*/
-router.get('/:id',productController.getProductById);
+router.get('/:id',getProductById);
 
 
 
-module.exports = router;
+export default router;

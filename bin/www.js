@@ -1,13 +1,15 @@
 #!/usr/bin/env node
 
+import http from "http";
+
 /**
  * Module dependencies.
  */
+import app from "../app.js";
 
-var app = require('../app');
-var debug = require('debug')('proshop-backend:server');
-var http = require('http');
+import debug0 from "debug";
 
+var debug = debug0('proshop-backend:server');
 /**
  * Get port from environment and store in Express.
  */
