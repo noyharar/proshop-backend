@@ -10,6 +10,7 @@ import logger from "morgan";
 // var indexRouter = require('./routes/index');
 import productsRouter from "./routes/products.js";
 import userRouter from "./routes/user.js";
+import orderRouter from "./routes/order.js";
 
 import cors from "cors";
 import connectDB from "./db.js";
@@ -37,6 +38,7 @@ app.use(cookieParser());
 
 app.use('/products', productsRouter);
 app.use('/users', userRouter);
+app.use('/orders', orderRouter);
 
 
 /*Error Middleware*/
