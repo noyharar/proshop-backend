@@ -41,6 +41,9 @@ app.use('/users', userRouter);
 app.use('/orders', orderRouter);
 
 
+app.use('/config/paypal', (req, res) => res.send(process.env.PAYPAL_CLIENT_ID));
+
+
 /*Error Middleware*/
 app.use((req, res, next) => {
   const error = new Error(`No Found ${req.originalUrl}`)
