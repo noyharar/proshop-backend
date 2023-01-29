@@ -17,7 +17,7 @@ const protect = asyncHandler( async (req, res, next) => {
 
         }
     }
-})
+});
 
 
 const admin = asyncHandler( async (req, res, next) => {
