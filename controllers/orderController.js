@@ -43,8 +43,6 @@ const addOrderItems = asyncHandler(async (req, res) => {
 // @access  Private
 const getOrderById = asyncHandler(async (req, res) => {
     const order = await Order.findById(req.params.id).populate('user', 'name email');
-
-
         if(order){
             res.json(order)
         }else{
@@ -99,5 +97,21 @@ const getOrders = asyncHandler(async (req, res) => {
     }
 });
 
+// @desc   Update order to deliverd
+// @route  PUT /orders/:id/deliver
+// @access  Private
+const updateOrderToDeliverd = asyncHandler(async (req, res) => {
+    const order = await Order.findById(req.params.id);
+    if(order){
+        order.isDelivered =  true;
+        order.deliveredAt = Date.now();
+        const updateOrder = await order.save();
+        res.json(updateOrder);
+    }else{
+        res.status(404);
+        throw new Error("User not found")
+    }
+});
 
-export {addOrderItems, getOrderById, updateOrderToPaid, getMyOrders, getOrders};
+
+export {addOrderItems, getOrderById, updateOrderToPaid, getMyOrders, getOrders, updateOrderToDeliverd};
