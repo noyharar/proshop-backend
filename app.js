@@ -2,7 +2,7 @@ import createError from "http-errors";
 
 import express from "express";
 
-import path from "path";
+import path from 'path';
 
 import cookieParser from "cookie-parser";
 
@@ -11,6 +11,7 @@ import logger from "morgan";
 import productsRouter from "./routes/products.js";
 import userRouter from "./routes/user.js";
 import orderRouter from "./routes/order.js";
+import uploadRouter from "./routes/upload.js";
 
 import cors from "cors";
 import connectDB from "./db.js";
@@ -39,10 +40,13 @@ app.use(cookieParser());
 app.use('/products', productsRouter);
 app.use('/users', userRouter);
 app.use('/orders', orderRouter);
+app.use('/upload', uploadRouter);
 
 
 app.use('/config/paypal', (req, res) => res.send(process.env.PAYPAL_CLIENT_ID));
 
+const __dirname = path.resolve()
+app.use('/uploads', express.static(path.join(__dirname, '/uploads')))
 
 /*Error Middleware*/
 app.use((req, res, next) => {
