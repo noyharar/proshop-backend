@@ -1,12 +1,14 @@
 import express from "express";
 var router = express.Router();
-import {getProducts,getProductById} from "../controllers/productController.js";
+import {getProducts,getProductById,deleteProduct,createProduct,updateProduct} from "../controllers/productController.js";
+import {protect, admin} from '../Middlewares/authMiddleware.js'
 
-/* GET products listing. */
-router.get('/', getProducts);
 
-/* GET product by id*/
-router.get('/:id',getProductById);
+router.route('/').get(getProducts)
+    .post(protect,admin,createProduct);
+router.route('/:id').get(getProductById)
+    .delete(protect, admin,deleteProduct)
+    .put(protect,admin,updateProduct)
 
 
 
